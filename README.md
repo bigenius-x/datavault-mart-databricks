@@ -1,6 +1,6 @@
-# biGENIUS DataVault Databricks Example
+# biGENIUS DataVault and Mart Databricks Example
 
-This is an example project for datavault Databricks for the biGENIUS-X application. This repository should give a quick introduction to datavault modeling in Databricks.
+This is an example project for datavault and mart Databricks for the biGENIUS-X application. This repository should give a quick introduction to datavault modeling in Databricks.
 
 ## How to add:
 
