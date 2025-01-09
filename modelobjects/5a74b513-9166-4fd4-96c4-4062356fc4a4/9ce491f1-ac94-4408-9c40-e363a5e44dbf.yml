@@ -1,0 +1,278 @@
+id: '9ce491f1-ac94-4408-9c40-e363a5e44dbf'
+name: 'EMPLOYEE_HIST'
+isLinked: true
+modelObjectTypeId: '5a74b513-9166-4fd4-96c4-4062356fc4a4'
+terms:
+  - id: 'edba1001-18ee-4d5d-81ac-eedd1ea514c2'
+    name: 'BG_SourceFilePath'
+    description: 'Default term, which stores the name of theinput file'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'efc3189c-d594-47e5-b2ed-a547cf302729'
+    name: 'BG_LoadTimestamp'
+    description: 'Default term with the load timestamp'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '214f4959-56df-4f38-b8c2-703c0890e8ae'
+  - id: 'e6b96197-28fe-46de-9325-850942484526'
+    name: 'BG_SourceSystem'
+    description: 'Default term with an identifier of the source system'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'eb94458f-6ccf-492d-b846-778fffc4b3d9'
+    name: 'EMPLOYEE_ID'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isDefaultTerm: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 38
+      scale: 0
+  - id: '63210aa2-cf74-4a4f-89b4-91cea4d0edf8'
+    name: 'JOBFUNCTION_ID'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isDefaultTerm: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 38
+      scale: 0
+  - id: '8d5090f8-8f3f-4b99-ab0a-1da66e331035'
+    name: 'BRANCH_ID'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isDefaultTerm: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 38
+      scale: 0
+  - id: '7555dc53-6d60-4b06-8a42-723ea2214b86'
+    name: 'DEPARTMENT_ID'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isDefaultTerm: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 38
+      scale: 0
+  - id: '81773fd0-a93c-432a-bb5b-a0696c8d4aec'
+    name: 'MANAGER_ID'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isDefaultTerm: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 38
+      scale: 0
+  - id: '5f123bf3-8dc4-4596-93bc-adbd004b0d3d'
+    name: 'UPDATE_DATE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isDefaultTerm: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '214f4959-56df-4f38-b8c2-703c0890e8ae'
+  - id: '9e18b063-85ea-4342-95de-ba8f04a861e8'
+    name: 'IS_ACTIVE_RECORD'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isDefaultTerm: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 38
+      scale: 0
+  - id: 'af2cb7b6-8590-48e8-b30f-038076158d85'
+    name: 'LAST_NAME'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isDefaultTerm: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'b50a8b6c-e5ad-4f02-aa1d-6a499039b699'
+    name: 'FIRST_NAME'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isDefaultTerm: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '364068a9-f430-4c37-b93e-51e24f2cde1e'
+    name: 'BIRTH_DATE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isDefaultTerm: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '228f5187-562a-4f20-9e7f-d109156e5dc9'
+  - id: '4f6f0f9b-946c-40c2-bcfe-e02af4686c32'
+    name: 'FIRST_HIRE_DATE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isDefaultTerm: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '228f5187-562a-4f20-9e7f-d109156e5dc9'
+  - id: 'af7e342e-80a6-471b-8444-20806f2a64f9'
+    name: 'HIRE_START_DATE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isDefaultTerm: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '228f5187-562a-4f20-9e7f-d109156e5dc9'
+  - id: 'c1f3f917-37ee-44f6-afe9-2429a7e5f44f'
+    name: 'HIRE_END_DATE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isDefaultTerm: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '228f5187-562a-4f20-9e7f-d109156e5dc9'
+  - id: '6adf5381-ca1f-4e1c-874c-1fe1361c18a9'
+    name: 'ADDRESS_LINE1'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isDefaultTerm: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '271e6e25-b908-463e-b585-a8196141f7b1'
+    name: 'ADDRESS_LINE2'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isDefaultTerm: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '8db572cf-c909-43f4-976a-16b8ac351329'
+    name: 'ADDRESS_LINE3'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isDefaultTerm: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'deb17ebc-a94c-4c14-a264-9fe48c244fff'
+    name: 'ZIP_CODE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isDefaultTerm: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'f4743658-184d-42d0-a6c4-945dc43768ab'
+    name: 'COUNTRY'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isDefaultTerm: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '7bf50d67-7a3e-4d44-a245-d688496de3ff'
+    name: 'COUNTRY_ISO_CODE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isDefaultTerm: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'cc179f98-4eed-4864-835b-750304020090'
+    name: 'dt'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isDefaultTerm: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+tags:
+  - '$discovery#id#a0723a9d-3af7-4aa1-83c6-71ac71f24843'
+  - '$linkedproject#id#baa7d869-02b3-4434-032d-08dd20455fcd'
+  - '$linkedproject#targetname#STG_ST_EMPLOYEE_HIST_Result'
+  - '$sourcesystem#id#d55891c7-8c9e-4700-bfa0-c1b7afa2b4fe'

@@ -1,0 +1,105 @@
+id: 'aac7d7e3-9fa7-4f17-b8bc-deb5c72e6542'
+name: 'PHONENUMBER'
+isLinked: true
+modelObjectTypeId: '5a74b513-9166-4fd4-96c4-4062356fc4a4'
+terms:
+  - id: '9b835b47-2ad6-4fb7-9993-d18d34e09b07'
+    name: 'BG_SourceFilePath'
+    description: 'Default term, which stores the name of theinput file'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '96705faf-6161-4765-ab7f-8a8a77f6873d'
+    name: 'BG_LoadTimestamp'
+    description: 'Default term with the load timestamp'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '214f4959-56df-4f38-b8c2-703c0890e8ae'
+  - id: 'ab35d679-7c7e-481b-84d2-a31798d854fa'
+    name: 'BG_SourceSystem'
+    description: 'Default term with an identifier of the source system'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '953be54a-5123-4136-a9ec-42c67611fe8e'
+    name: 'PHONENUMBER_ID'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isDefaultTerm: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 38
+      scale: 0
+  - id: '94700dc9-c1f4-4a65-bd22-f55e3c03b524'
+    name: 'FOREIGN_KEY_ID'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isDefaultTerm: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 38
+      scale: 0
+  - id: '3c178f9f-10e2-4633-ad76-c2c1bc2de92c'
+    name: 'PHONE_NUMBER_TYPE_CODE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isDefaultTerm: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '9ece7b72-a04e-4aed-b3d0-7d93e86552de'
+    name: 'PHONE_NUMBER'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isDefaultTerm: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'b5a3e6a3-dbd8-4860-b622-9e0bbd0667a2'
+    name: 'dt'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isDefaultTerm: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+tags:
+  - '$discovery#id#a0723a9d-3af7-4aa1-83c6-71ac71f24843'
+  - '$linkedproject#id#baa7d869-02b3-4434-032d-08dd20455fcd'
+  - '$linkedproject#targetname#STG_ST_PHONENUMBER_Result'
+  - '$sourcesystem#id#d55891c7-8c9e-4700-bfa0-c1b7afa2b4fe'

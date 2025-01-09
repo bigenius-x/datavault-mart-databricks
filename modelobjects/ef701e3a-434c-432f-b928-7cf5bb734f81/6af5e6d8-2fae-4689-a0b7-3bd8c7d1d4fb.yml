@@ -1,0 +1,171 @@
+id: '6af5e6d8-2fae-4689-a0b7-3bd8c7d1d4fb'
+name: 'LOYALTYCARD'
+description: 'Generated Model Object from LOYALTYCARD'
+modelObjectTypeId: 'ef701e3a-434c-432f-b928-7cf5bb734f81'
+terms:
+  - id: '964e8bf6-a3f3-4416-ab5d-3b9abb855e31'
+    name: 'BG_LoadTimestamp'
+    description: 'Default term with the load timestamp'
+    defaultTermId: '3fdfd83b-00b6-47e7-b139-9b25993626ac'
+    hiddenInSource: false
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '214f4959-56df-4f38-b8c2-703c0890e8ae'
+  - id: 'd6d975b8-7ef1-4b59-b2fc-b1e794777c91'
+    name: 'Link_HK'
+    description: 'Identifier of a record'
+    defaultTermId: '681eef24-7738-4e91-852b-8c53a3197e64'
+    hiddenInSource: false
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: true
+    isNullable: false
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '2038975f-d086-4871-ae54-bbbb15a1fd1f'
+    name: 'BG_ValidToTimestamp'
+    description: 'Default term for the technical validity or objects'
+    defaultTermId: '8a0e3b61-609b-4b0b-9a14-58a7730ed12e'
+    hiddenInSource: false
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '214f4959-56df-4f38-b8c2-703c0890e8ae'
+  - id: '4e42d4de-2334-40bb-abb4-38cccdcea129'
+    name: 'BG_ValidFromTimestamp'
+    description: 'Default term for the technical validity or objects'
+    defaultTermId: 'dae67eab-4d4c-415c-b8a2-98bc6820719d'
+    hiddenInSource: false
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '214f4959-56df-4f38-b8c2-703c0890e8ae'
+  - id: '520d3b4f-a181-4a0e-8cd2-9cc3abb3127e'
+    name: 'BG_SourceSystem'
+    description: 'Default term with an identifier of the source system'
+    defaultTermId: 'c3654f1c-5c92-4200-82ef-baac15ffa0ba'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'd0d4d618-58a9-4eb9-8eee-5d48a9ab67bc'
+    name: 'BG_Effectivity_Begin'
+    description: 'Begin of validity of record'
+    defaultTermId: 'b003b70d-233c-4331-96e6-cac35691a98f'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '214f4959-56df-4f38-b8c2-703c0890e8ae'
+  - id: '6fc50a24-5cf5-423d-9c02-2d2d38ad9863'
+    name: 'BG_Effectivity_End'
+    description: 'End of validity of record'
+    defaultTermId: 'dae175ad-9c52-4468-83f3-d4c79d4489ce'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '214f4959-56df-4f38-b8c2-703c0890e8ae'
+  - id: 'e8062ab9-7838-409f-833b-740e2d0738a8'
+    name: 'BG_RowHash'
+    description: 'Default term that stores the computed hash value for defined attributes'
+    defaultTermId: '2362debf-62f0-4e46-b0eb-bd221e3961eb'
+    hiddenInSource: false
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'f62ea312-36c5-4bb5-8128-165acf2bdb99'
+    name: 'FK_Loyaltycard2Customer_FK_CUSTOMER_CUSTOMER_ID'
+    hiddenInSource: true
+    hiddenInTarget: false
+    isBusinessKey: false
+    isBusinessKeyForeignKey: true
+    isForeignKey: true
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 38
+      scale: 0
+  - id: 'b556b582-df7e-4a3c-ae4e-8bf38802cbaf'
+    name: 'FK_Loyaltycard2Customer_FK_LOYALTYCARD_LOYALTYCARD_ID'
+    hiddenInSource: true
+    hiddenInTarget: false
+    isBusinessKey: false
+    isBusinessKeyForeignKey: true
+    isForeignKey: true
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 38
+      scale: 0
+dataflows:
+  - id: '658d6337-0651-4fef-8ab1-f4c1488d1cb5'
+    name: 'Dataflow1'
+    dataflowSets:
+      - id: '8ee40b28-fde2-4260-8cd9-cde3a385fdcd'
+        name: 'Set1'
+        dataflowModelObjects:
+          - id: '56ca36e4-a593-4384-b7b8-a0e2e51a5499'
+            alias: 's1'
+            sourceModelObjectId: '1c0b55a7-e226-4b6f-ba98-0c886da87dae'
+        termMappings:
+          - termId: '964e8bf6-a3f3-4416-ab5d-3b9abb855e31'
+          - termId: 'd6d975b8-7ef1-4b59-b2fc-b1e794777c91'
+          - termId: '2038975f-d086-4871-ae54-bbbb15a1fd1f'
+          - termId: '4e42d4de-2334-40bb-abb4-38cccdcea129'
+          - termId: '520d3b4f-a181-4a0e-8cd2-9cc3abb3127e'
+          - expression: '56ca36e4-a593-4384-b7b8-a0e2e51a5499.a2f3eeb0-61fa-4bfa-8c21-efba14222315'
+            termId: 'd0d4d618-58a9-4eb9-8eee-5d48a9ab67bc'
+          - expression: '56ca36e4-a593-4384-b7b8-a0e2e51a5499.9291ed4d-a300-42be-9045-7b7fcb3ea75e'
+            termId: '6fc50a24-5cf5-423d-9c02-2d2d38ad9863'
+          - termId: 'e8062ab9-7838-409f-833b-740e2d0738a8'
+          - expression: '56ca36e4-a593-4384-b7b8-a0e2e51a5499.b58a0c2c-4d53-4dd5-a928-ec4295d2d66f'
+            termId: 'f62ea312-36c5-4bb5-8128-165acf2bdb99'
+          - expression: '56ca36e4-a593-4384-b7b8-a0e2e51a5499.5a6b9e5c-fd82-4a4a-8125-cb4f9661d88b'
+            termId: 'b556b582-df7e-4a3c-ae4e-8bf38802cbaf'
+relationships:
+  - id: 'd5186930-c3a1-4322-97a8-780cdf299600'
+    referencedModelObjectId: '1c956ebb-7f8a-4052-b243-fbb3619d6f85'
+    role: 'Loyaltycard2Customer'
+    additionalTermIds: []
+    relationshipTerms:
+      - referenceTermId: 'bf7e46d7-80bc-4e31-88d7-22ea28a915f6'
+        termId: 'f62ea312-36c5-4bb5-8128-165acf2bdb99'
+      - referenceTermId: '35727c11-e4e3-4fa3-9843-57acb1ec9979'
+        termId: 'b556b582-df7e-4a3c-ae4e-8bf38802cbaf'
+    propertyValues: []

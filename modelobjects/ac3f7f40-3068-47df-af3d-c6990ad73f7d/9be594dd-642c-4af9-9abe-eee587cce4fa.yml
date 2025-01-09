@@ -1,0 +1,77 @@
+id: '9be594dd-642c-4af9-9abe-eee587cce4fa'
+name: 'CUSTOMER'
+description: 'Generated Model Object from CUSTOMER'
+modelObjectTypeId: 'ac3f7f40-3068-47df-af3d-c6990ad73f7d'
+terms:
+  - id: '6065985d-4223-4ca6-9fd5-a9a2a52edc4e'
+    name: 'BG_LoadTimestamp'
+    description: 'Default term with the load timestamp'
+    defaultTermId: '3fdfd83b-00b6-47e7-b139-9b25993626ac'
+    hiddenInSource: false
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '214f4959-56df-4f38-b8c2-703c0890e8ae'
+  - id: '72b18434-3749-41ba-b4ed-5aa8a5fad021'
+    name: 'Hub_HK'
+    description: 'Identifier of a record'
+    defaultTermId: '2689505b-2079-48b5-9fea-60ac633b04fe'
+    hiddenInSource: false
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: true
+    isNullable: false
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '5579d97c-fc6a-40f8-99d8-d931b7cdeb20'
+    name: 'BG_SourceSystem'
+    description: 'Default term with an identifier of the source system'
+    defaultTermId: 'c3654f1c-5c92-4200-82ef-baac15ffa0ba'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '57cfa314-dae8-48e4-b86e-6f9ade3546f2'
+    name: 'CUSTOMER_ID'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 38
+      scale: 0
+dataflows:
+  - id: '93b4694e-1891-4ba2-a35c-5ec4486791d3'
+    name: 'Dataflow1'
+    description: ''
+    alias: ''
+    dataflowSets:
+      - id: 'a8047b19-d3f0-46be-91ca-e485583e2541'
+        name: 'Set1'
+        dataflowModelObjects:
+          - id: '7de34370-b67f-4799-bb16-384e6ab7df2a'
+            alias: 's1'
+            sourceModelObjectId: 'd2f95acc-188f-4681-8ce2-4147c3501b3c'
+        termMappings:
+          - termId: '6065985d-4223-4ca6-9fd5-a9a2a52edc4e'
+          - termId: '72b18434-3749-41ba-b4ed-5aa8a5fad021'
+          - termId: '5579d97c-fc6a-40f8-99d8-d931b7cdeb20'
+          - expression: '7de34370-b67f-4799-bb16-384e6ab7df2a.24e72380-50ed-4bfe-be3e-324f2692e6a9'
+            termId: '57cfa314-dae8-48e4-b86e-6f9ade3546f2'
+    propertyValues:
+      - propertyId: 'a57fa4ce-3f1f-4542-85e0-27c0c5dc9b3f'
+        value: ''

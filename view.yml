@@ -1,0 +1,169 @@
+views:
+  - id: '81b5d9f1-713d-433b-a21f-be2d3d3ccb67'
+    name: 'Datapipe View 1'
+    description: 'Default view for data pipe.'
+    default: true
+    type: 'data-pipe'
+    modelObjects:
+      - id: 'a769d91f-0a4c-4926-b3b8-f8928b7ffb9a'
+      - id: 'd2f95acc-188f-4681-8ce2-4147c3501b3c'
+      - id: '56381191-bd24-4999-9c26-081f145351e4'
+      - id: '9d9aa0db-27e5-4bed-81cc-6de52b4a6f2e'
+      - id: '5d55647b-9160-47de-ae43-8bd8e60e2c31'
+      - id: '1c0b55a7-e226-4b6f-ba98-0c886da87dae'
+      - id: 'aac7d7e3-9fa7-4f17-b8bc-deb5c72e6542'
+      - id: '4e2b6f46-e63a-4040-9393-b832c97e18dd'
+      - id: '284446bb-484f-4a7e-a584-bdea5ac1fea9'
+      - id: '9d8b23f9-18e9-4a7d-80b2-a180d85d72b5'
+      - id: '9be594dd-642c-4af9-9abe-eee587cce4fa'
+      - id: 'c4011ff1-f1da-496d-8656-ee6dcbba33f9'
+      - id: '608e9e46-2c29-4951-ad38-fd08c913ae9b'
+      - id: '75af1e46-35e0-4656-847d-4b880c3d63d4'
+      - id: '4e3deda4-da87-44dd-b543-67fa6b9109f7'
+      - id: '41a959a9-ae07-40fe-931d-f90482615e65'
+      - id: 'f0fa40e6-4077-4567-8dc5-32c45e706440'
+      - id: '6435ea36-cb24-4138-ac8b-d96d79fad071'
+      - id: '577bb248-61b0-43d6-9803-973961a7bfa5'
+      - id: '1ff0b737-7526-4d56-999d-323cf8021940'
+      - id: 'f7384b1c-c0cf-4efc-8ea8-cf64c29487df'
+      - id: 'f71a0c60-caa0-438c-b5ca-6c6ddfba3e0f'
+      - id: '1c956ebb-7f8a-4052-b243-fbb3619d6f85'
+      - id: '6af5e6d8-2fae-4689-a0b7-3bd8c7d1d4fb'
+      - id: '8a88adbe-53e7-4a16-8083-229059256d52'
+      - id: '98d8c9a4-ea9c-420d-9c7b-635a1f0a7c0f'
+      - id: 'de71a7c7-dbb1-4a43-97c3-0308d1ad2674'
+      - id: '8c4e0db2-a1ad-42f6-910e-0d1bb5d680e3'
+      - id: '57eec5b4-bc2e-4e0d-a2dc-772d0d0e78ff'
+      - id: '00dacc30-e68b-4195-8208-e16dfab6e90c'
+      - id: '433d0e27-52c0-41ac-8e3f-cbf829a3340a'
+      - id: '18f4ad73-a6b4-418a-a01d-b7628ba86dc3'
+      - id: 'f5b5b7d6-0544-4ff1-9ecf-ab6d0f6655e0'
+      - id: '7ccc28dd-40d5-4e28-a91d-60d93682e7bb'
+      - id: '601bc25b-ead6-4ac7-bf90-c09d7b4c6493'
+      - id: '0a54acb3-90b5-48b6-bba2-7968316ab579'
+      - id: '7f3ed883-be76-4f55-ab1c-550cc27f1111'
+      - id: '625a20d3-ca72-44a3-9fbb-d93de0584559'
+      - id: 'dab72963-d7d7-4fd1-967b-2124e76a28eb'
+      - id: 'c7d921a2-a756-48d2-9ae5-d37eb26cafc7'
+      - id: '1e1bab65-ec64-4f2d-980c-56e4e8e3a5ba'
+      - id: 'd3acce22-3a37-45d1-9461-2e347816ddb5'
+  - id: '4921c6ed-793b-44a8-b08c-31987eac8e12'
+    name: 'Datamodel View 1'
+    description: 'Default view for data model.'
+    default: true
+    type: 'data-model'
+    modelObjects:
+      - id: '9d8b23f9-18e9-4a7d-80b2-a180d85d72b5'
+        collapsed: true
+        x: -54
+        'y': 508
+      - id: '284446bb-484f-4a7e-a584-bdea5ac1fea9'
+        collapsed: true
+        x: 266
+        'y': 508
+      - id: '9be594dd-642c-4af9-9abe-eee587cce4fa'
+        collapsed: true
+        x: 1022
+        'y': 248
+      - id: '608e9e46-2c29-4951-ad38-fd08c913ae9b'
+        collapsed: true
+        x: 1395
+        'y': 262
+      - id: 'c4011ff1-f1da-496d-8656-ee6dcbba33f9'
+        collapsed: true
+        x: 1393
+        'y': 205
+      - id: '8a88adbe-53e7-4a16-8083-229059256d52'
+        collapsed: true
+        x: -48
+        'y': 419
+      - id: '41a959a9-ae07-40fe-931d-f90482615e65'
+        collapsed: true
+        x: -60
+        'y': 362
+      - id: '4e3deda4-da87-44dd-b543-67fa6b9109f7'
+        collapsed: true
+        x: 266
+        'y': 423
+      - id: '6435ea36-cb24-4138-ac8b-d96d79fad071'
+        collapsed: true
+        x: -61
+        'y': 267
+      - id: 'f0fa40e6-4077-4567-8dc5-32c45e706440'
+        collapsed: true
+        x: 263
+        'y': 267
+      - id: '577bb248-61b0-43d6-9803-973961a7bfa5'
+        collapsed: true
+        x: 1023
+        'y': 420
+      - id: '6af5e6d8-2fae-4689-a0b7-3bd8c7d1d4fb'
+        collapsed: true
+        x: 1402
+        'y': 331
+      - id: '1c956ebb-7f8a-4052-b243-fbb3619d6f85'
+        collapsed: true
+        x: 1023
+        'y': 335
+      - id: '98d8c9a4-ea9c-420d-9c7b-635a1f0a7c0f'
+        collapsed: true
+        x: 600
+        'y': 664
+      - id: 'de71a7c7-dbb1-4a43-97c3-0308d1ad2674'
+        collapsed: true
+        x: 269
+        'y': 656
+      - id: '18f4ad73-a6b4-418a-a01d-b7628ba86dc3'
+        collapsed: true
+        x: 1383
+        'y': 133
+      - id: '433d0e27-52c0-41ac-8e3f-cbf829a3340a'
+        collapsed: true
+        x: 1022
+        'y': 137
+      - id: 'f5b5b7d6-0544-4ff1-9ecf-ab6d0f6655e0'
+        collapsed: true
+        x: 593
+        'y': 280
+      - id: '57eec5b4-bc2e-4e0d-a2dc-772d0d0e78ff'
+        collapsed: true
+        x: 1352
+        'y': 536
+      - id: '8c4e0db2-a1ad-42f6-910e-0d1bb5d680e3'
+        collapsed: true
+        x: 1018
+        'y': 536
+      - id: '00dacc30-e68b-4195-8208-e16dfab6e90c'
+        collapsed: true
+        x: 601
+        'y': 544
+  - id: '72e88950-b167-465c-8127-d6d6fb8aa64a'
+    name: 'Mart'
+    description: ''
+    default: false
+    type: 'data-model'
+    modelObjects:
+      - id: '7f3ed883-be76-4f55-ab1c-550cc27f1111'
+        collapsed: true
+        x: 524.25
+        'y': 169
+      - id: '625a20d3-ca72-44a3-9fbb-d93de0584559'
+        collapsed: true
+        x: 282
+        'y': 369
+      - id: 'dab72963-d7d7-4fd1-967b-2124e76a28eb'
+        collapsed: true
+        x: 1046.75
+        'y': 176
+      - id: 'c7d921a2-a756-48d2-9ae5-d37eb26cafc7'
+        collapsed: true
+        x: 1168.5
+        'y': 346
+      - id: '1e1bab65-ec64-4f2d-980c-56e4e8e3a5ba'
+        collapsed: true
+        x: 739
+        'y': 431
+      - id: 'd3acce22-3a37-45d1-9461-2e347816ddb5'
+        collapsed: true
+        x: 736.25
+        'y': 286

@@ -1,0 +1,13 @@
+id: '35d1fd8e-4e21-4243-032f-08dd20455fcd'
+name: 'cust_demo.vaultandmart.spark.databricks'
+description: 'Demo project for Spark Databricks with DataVault and Mart'
+version: 'v1.5'
+configuration:
+  id: 'biGENIUS.Implementation.Generator.VaultAndMart.Spark.Databricks'
+  version: '1.7.5'
+sourceSystems:
+  - id: 'd55891c7-8c9e-4700-bfa0-c1b7afa2b4fe'
+    name: 'ParquetSource'
+    isLinkedProject: true
+    sourceSystemTypeId: '301305db-47c8-4d20-b2b2-5dbefbaf251d'
+propertyValues: []

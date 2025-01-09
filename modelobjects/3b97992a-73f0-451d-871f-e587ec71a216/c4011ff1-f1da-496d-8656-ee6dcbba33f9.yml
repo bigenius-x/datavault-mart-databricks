@@ -1,0 +1,166 @@
+id: 'c4011ff1-f1da-496d-8656-ee6dcbba33f9'
+name: 'CUSTOMER_Info'
+description: 'Generated Model Object from CUSTOMER'
+modelObjectTypeId: '3b97992a-73f0-451d-871f-e587ec71a216'
+terms:
+  - id: 'ddfc50c9-0263-4608-837e-a1451c8049cf'
+    name: 'BG_LoadTimestamp'
+    description: 'Default term with the load timestamp'
+    defaultTermId: '3fdfd83b-00b6-47e7-b139-9b25993626ac'
+    hiddenInSource: false
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '214f4959-56df-4f38-b8c2-703c0890e8ae'
+  - id: '78771b89-ea34-4a73-a3e4-be65b7719f96'
+    name: 'Hub_HK'
+    description: 'Identifier of a record'
+    defaultTermId: '2689505b-2079-48b5-9fea-60ac633b04fe'
+    hiddenInSource: false
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: true
+    isNullable: false
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '61609d14-d969-47de-a540-60b656d940ee'
+    name: 'BG_SourceSystem'
+    description: 'Default term with an identifier of the source system'
+    defaultTermId: 'c3654f1c-5c92-4200-82ef-baac15ffa0ba'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '4ea4d629-5c8c-4d7f-a343-0baa61065f08'
+    name: 'BG_ValidFromTimestamp'
+    description: 'Default term for the technical validity or objects'
+    defaultTermId: 'dae67eab-4d4c-415c-b8a2-98bc6820719d'
+    hiddenInSource: false
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '214f4959-56df-4f38-b8c2-703c0890e8ae'
+  - id: 'e30dd320-a6ec-4b4e-82eb-41e53d50fc28'
+    name: 'BG_RowHash'
+    description: 'Default term that stores the computed hash value for defined attributes'
+    defaultTermId: '2362debf-62f0-4e46-b0eb-bd221e3961eb'
+    hiddenInSource: false
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'ec265a3d-cdc7-4155-af11-f51c5774da38'
+    name: 'BG_ValidToTimestamp'
+    description: 'Default term for the technical validity or objects'
+    defaultTermId: '8a0e3b61-609b-4b0b-9a14-58a7730ed12e'
+    hiddenInSource: false
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '214f4959-56df-4f38-b8c2-703c0890e8ae'
+  - id: '39bf536b-0b51-43ac-83db-a4cbb1c60811'
+    name: 'FK_CUSTOMER_CUSTOMER_ID'
+    hiddenInSource: true
+    hiddenInTarget: false
+    isBusinessKey: false
+    isBusinessKeyForeignKey: true
+    isForeignKey: true
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 38
+      scale: 0
+  - id: '48d55cad-e332-4f27-804e-0eacdfc5eb16'
+    name: 'CUSTOMER'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'eedbcbdd-b52b-49af-ab37-7257d7c69fd8'
+    name: 'CUSTOMER_TYPE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '87a1ea23-79eb-42df-b7b7-c38b334237af'
+    name: 'CUSTOMER_SINCE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '228f5187-562a-4f20-9e7f-d109156e5dc9'
+dataflows:
+  - id: 'b9bfdbc9-aed5-42b4-b4ca-af9d5f55dc89'
+    name: 'Dataflow1'
+    dataflowSets:
+      - id: 'ba970ea0-d7d3-4203-b296-44d2da4109c8'
+        name: 'Set1'
+        dataflowModelObjects:
+          - id: 'ef7f11b0-fe19-4ebd-baee-53f169641de4'
+            alias: 's1'
+            sourceModelObjectId: 'd2f95acc-188f-4681-8ce2-4147c3501b3c'
+            propertyValues:
+              - propertyId: 'ada2da7c-fd97-4e60-9eac-6b119fd4abb3'
+                value: ''
+        termMappings:
+          - termId: 'ddfc50c9-0263-4608-837e-a1451c8049cf'
+          - termId: '78771b89-ea34-4a73-a3e4-be65b7719f96'
+          - termId: '61609d14-d969-47de-a540-60b656d940ee'
+          - termId: '4ea4d629-5c8c-4d7f-a343-0baa61065f08'
+          - termId: 'e30dd320-a6ec-4b4e-82eb-41e53d50fc28'
+          - termId: 'ec265a3d-cdc7-4155-af11-f51c5774da38'
+          - expression: 'ef7f11b0-fe19-4ebd-baee-53f169641de4.24e72380-50ed-4bfe-be3e-324f2692e6a9'
+            termId: '39bf536b-0b51-43ac-83db-a4cbb1c60811'
+          - expression: 'ef7f11b0-fe19-4ebd-baee-53f169641de4.6b9570a6-2cf9-4685-b623-8d4f6401f7e1'
+            termId: '48d55cad-e332-4f27-804e-0eacdfc5eb16'
+          - expression: 'ef7f11b0-fe19-4ebd-baee-53f169641de4.e905a7dc-a99d-426e-be42-722029a6681e'
+            termId: 'eedbcbdd-b52b-49af-ab37-7257d7c69fd8'
+          - expression: 'ef7f11b0-fe19-4ebd-baee-53f169641de4.a80b93cc-f1ae-4ba0-b0e1-3f03718994f3'
+            termId: '87a1ea23-79eb-42df-b7b7-c38b334237af'
+relationships:
+  - id: 'ddcb2ddc-fa0e-4b03-bac3-67d2d1960165'
+    referencedModelObjectId: '9be594dd-642c-4af9-9abe-eee587cce4fa'
+    role: 'CUSTOMER'
+    additionalTermIds: []
+    relationshipTerms:
+      - referenceTermId: '57cfa314-dae8-48e4-b86e-6f9ade3546f2'
+        termId: '39bf536b-0b51-43ac-83db-a4cbb1c60811'
+    propertyValues: []
+propertyValues:
+  - propertyId: 'b0ee14c8-5179-4123-bed8-c81d60a9a0a2'
+    value: '<unselected>'

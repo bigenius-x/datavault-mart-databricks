@@ -1,0 +1,77 @@
+id: '577bb248-61b0-43d6-9803-973961a7bfa5'
+name: 'LOYALTYCARD'
+description: 'Generated Model Object from LOYALTYCARD'
+modelObjectTypeId: 'ac3f7f40-3068-47df-af3d-c6990ad73f7d'
+terms:
+  - id: 'c8f4c05d-7b41-4075-9bda-f463714966a2'
+    name: 'BG_LoadTimestamp'
+    description: 'Default term with the load timestamp'
+    defaultTermId: '3fdfd83b-00b6-47e7-b139-9b25993626ac'
+    hiddenInSource: false
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '214f4959-56df-4f38-b8c2-703c0890e8ae'
+  - id: 'eb03af17-3b74-4796-98b3-b58dcfa35f67'
+    name: 'Hub_HK'
+    description: 'Identifier of a record'
+    defaultTermId: '2689505b-2079-48b5-9fea-60ac633b04fe'
+    hiddenInSource: false
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: true
+    isNullable: false
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'f85e3751-5758-402a-9e14-aa5c3a5642b2'
+    name: 'BG_SourceSystem'
+    description: 'Default term with an identifier of the source system'
+    defaultTermId: 'c3654f1c-5c92-4200-82ef-baac15ffa0ba'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '0eaa7326-de30-4aff-a347-92c549edd8e3'
+    name: 'LOYALTYCARD_ID'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 38
+      scale: 0
+dataflows:
+  - id: '2cbc8224-e689-465d-976f-9ae9aef9282d'
+    name: 'Dataflow1'
+    description: ''
+    alias: ''
+    dataflowSets:
+      - id: '1618ecb3-4428-44ae-94a1-1476c70c659a'
+        name: 'Set1'
+        dataflowModelObjects:
+          - id: '327dd854-3357-434b-bcd0-bb18c0402272'
+            alias: 's1'
+            sourceModelObjectId: '1c0b55a7-e226-4b6f-ba98-0c886da87dae'
+        termMappings:
+          - termId: 'c8f4c05d-7b41-4075-9bda-f463714966a2'
+          - termId: 'eb03af17-3b74-4796-98b3-b58dcfa35f67'
+          - termId: 'f85e3751-5758-402a-9e14-aa5c3a5642b2'
+          - expression: '327dd854-3357-434b-bcd0-bb18c0402272.5a6b9e5c-fd82-4a4a-8125-cb4f9661d88b'
+            termId: '0eaa7326-de30-4aff-a347-92c549edd8e3'
+    propertyValues:
+      - propertyId: 'a57fa4ce-3f1f-4542-85e0-27c0c5dc9b3f'
+        value: ''
