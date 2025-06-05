@@ -107,7 +107,7 @@ terms:
       platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
       precision: 38
   - id: 'dc050f30-8a69-4392-8524-079ccc806e42'
-    name: 'DimCustomer_DimCustomer_ID'
+    name: 'DimItem_DimCustomer_SK'
     description: 'Default term with the identity of the referenced mart dimension'
     defaultTermId: '618f7171-3c96-4093-9f01-05b68d3ee3f1'
     hiddenInSource: false
@@ -133,7 +133,7 @@ terms:
       platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
       precision: 38
   - id: '1ae22e85-3cba-49c7-8436-9aefa57516d3'
-    name: 'DimItem_DimItem_ID'
+    name: 'DimItem_DimItem_SK'
     description: 'Default term with the identity of the referenced mart dimension'
     defaultTermId: '618f7171-3c96-4093-9f01-05b68d3ee3f1'
     hiddenInSource: false
