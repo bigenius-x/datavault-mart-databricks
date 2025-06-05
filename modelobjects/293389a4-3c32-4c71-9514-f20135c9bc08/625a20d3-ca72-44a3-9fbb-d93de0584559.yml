@@ -69,7 +69,7 @@ terms:
     dataType:
       platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
   - id: '367b07d5-e704-41ef-b7e0-ca53ca8ad491'
-    name: 'DimCustomer_ID'
+    name: 'DimCustomer_SK'
     description: 'Default term with mart dimension identity'
     defaultTermId: '3d0d1df1-e8a7-45bb-abf4-63b4ecdbc2ea'
     hiddenInSource: false
@@ -204,7 +204,7 @@ dataflows:
             sourceModelObjectId: '0a54acb3-90b5-48b6-bba2-7968316ab579'
             propertyValues:
               - propertyId: 'ada2da7c-fd97-4e60-9eac-6b119fd4abb3'
-                value: 'BG_ValidFromTimestamp'
+                value: 'fb63d40a-3553-4af0-a4e1-009c18e34fc0'
         termMappings:
           - termId: '1bd222a1-12f7-4b5c-bde4-57b79c854700'
           - termId: 'e1079019-617f-4f8e-b898-ebf135b411ab'

@@ -161,9 +161,7 @@ dataflows:
           - expression: '8d1556bb-a1e8-4862-b5b2-5748da4a7cf9.88c80e61-6e91-41d7-8331-73311a9d05ee'
             termId: '62c8be35-a60b-4db1-9218-d388e1fbb131'
           - termId: '69821e47-9a42-40f5-ab3f-5a8ad58731e1'
-    propertyValues:
-      - propertyId: 'a57fa4ce-3f1f-4542-85e0-27c0c5dc9b3f'
-        value: ''
+    propertyValues: []
 relationships:
   - id: '81c7d238-d76f-47b4-a773-d0b7ae883a29'
     referencedModelObjectId: '9be594dd-642c-4af9-9abe-eee587cce4fa'
