@@ -4,7 +4,7 @@ description: 'Demo project for Spark Databricks with DataVault and Mart'
 version: 'v1.5'
 configuration:
   id: 'biGENIUS.Implementation.Generator.VaultAndMart.Spark.Databricks'
-  version: '1.8.0'
+  version: '1.9.0'
 sourceSystems:
   - id: 'd55891c7-8c9e-4700-bfa0-c1b7afa2b4fe'
     name: 'ParquetSource'

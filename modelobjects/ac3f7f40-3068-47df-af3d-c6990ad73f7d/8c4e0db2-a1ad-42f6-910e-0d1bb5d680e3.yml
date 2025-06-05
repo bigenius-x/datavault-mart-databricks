@@ -112,6 +112,4 @@ dataflows:
             termId: '58e02d97-c544-41cb-9419-2a1803d88990'
           - expression: '426098f7-7cc5-43c0-9f63-5e9f501e3503.1eff5ab7-c6f0-4f8d-acb0-4f6c91d1c777'
             termId: 'd68a6315-3ac4-45ca-a2e1-f353c642e78a'
-    propertyValues:
-      - propertyId: 'a57fa4ce-3f1f-4542-85e0-27c0c5dc9b3f'
-        value: ''
+    propertyValues: []

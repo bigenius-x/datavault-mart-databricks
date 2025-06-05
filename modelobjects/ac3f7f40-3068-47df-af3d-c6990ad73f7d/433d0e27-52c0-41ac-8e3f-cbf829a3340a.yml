@@ -84,6 +84,4 @@ dataflows:
             termId: '41c0b4c9-9a70-4533-9091-03eeed5c9f8f'
           - expression: '99677ee3-0833-4972-8613-90dc205b7dac.88c80e61-6e91-41d7-8331-73311a9d05ee'
             termId: '8d362100-4896-4981-a385-4d8fefed4b87'
-    propertyValues:
-      - propertyId: 'a57fa4ce-3f1f-4542-85e0-27c0c5dc9b3f'
-        value: ''
+    propertyValues: []

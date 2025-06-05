@@ -182,9 +182,7 @@ dataflows:
           - id: '067f2d37-4eb9-4c18-ab7f-4b5fcfbeb894'
             alias: 's1'
             sourceModelObjectId: '5d55647b-9160-47de-ae43-8bd8e60e2c31'
-            propertyValues:
-              - propertyId: 'ada2da7c-fd97-4e60-9eac-6b119fd4abb3'
-                value: ''
+            propertyValues: []
         termMappings:
           - termId: '7929bee8-9445-432f-9f89-6aa0d2e81e77'
           - termId: '48834b34-0f57-4028-9f78-1936c20aaba7'
