@@ -69,7 +69,7 @@ terms:
     dataType:
       platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
   - id: 'c81ceedc-bb18-497e-8663-3afdf69cf43f'
-    name: 'DimItem_ID'
+    name: 'DimItem_SK'
     description: 'Default term with mart dimension identity'
     defaultTermId: '3d0d1df1-e8a7-45bb-abf4-63b4ecdbc2ea'
     hiddenInSource: false
