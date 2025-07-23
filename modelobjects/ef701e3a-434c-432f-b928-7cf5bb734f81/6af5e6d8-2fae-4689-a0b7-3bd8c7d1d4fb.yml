@@ -104,7 +104,7 @@ terms:
     isDefaultTerm: true
     isForeignKey: false
     isIdentity: false
-    isNullable: true
+    isNullable: false
     dataType:
       platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
   - id: 'f62ea312-36c5-4bb5-8128-165acf2bdb99'
