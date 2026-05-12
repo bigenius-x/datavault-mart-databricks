@@ -1,7 +1,7 @@
 id: '35d1fd8e-4e21-4243-032f-08dd20455fcd'
 name: 'cust_demo.vaultandmart.spark.databricks'
 description: 'Demo project for Spark Databricks with DataVault and Mart'
-version: 'v1.6'
+version: 'v1.7'
 configuration:
   id: 'biGENIUS.Implementation.Generator.VaultAndMart.Spark.Databricks'
   version: '1.10.0'
