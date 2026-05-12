@@ -268,6 +268,45 @@ terms:
     isNullable: false
     dataType:
       platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'e0a8c408-8dff-4aeb-bf5c-884a59735fcf'
+    name: 'BG_DataQuality_ID'
+    description: 'Default term for the data quality row id'
+    defaultTermId: 'a36a696d-59f5-487e-a955-96c6c2f0bcad'
+    hiddenInSource: true
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: true
+    isNullable: false
+    dataType:
+      platformDataTypeId: '3ea7a252-6878-4db5-9994-72fd3dae2075'
+  - id: '52d79ea4-81d7-4c83-aaf5-7a507ccb0630'
+    name: 'BG_ErrorCount'
+    description: 'Default term for the data quality error count'
+    defaultTermId: '27b8472b-1aec-4de0-9769-babc4a384c9a'
+    hiddenInSource: true
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: 'c6f208b6-6dc4-4977-bed0-a7775c9ff888'
+  - id: '1d469b55-8763-43fe-8a04-5cfd42092970'
+    name: 'BG_ErrorDescription'
+    description: 'Default term for the data quality error description'
+    defaultTermId: '020b2582-0e66-4db8-9c9e-561fc42a749b'
+    hiddenInSource: true
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
 dataflows:
   - id: 'a5e23b27-f436-44fc-887f-caafafb87d67'
     name: 'Dataflow1'
@@ -323,6 +362,9 @@ dataflows:
           - expression: '837237c0-aedb-4a6a-9a18-d6640fb123e6.37e803f3-f92a-4689-a0d9-d025c7fae567'
             termId: '871d9733-001d-4018-bb87-5b9e7891c610'
           - termId: '871ab8fa-0cfe-4448-9ab6-62e6539e72ef'
+          - termId: 'e0a8c408-8dff-4aeb-bf5c-884a59735fcf'
+          - termId: '52d79ea4-81d7-4c83-aaf5-7a507ccb0630'
+          - termId: '1d469b55-8763-43fe-8a04-5cfd42092970'
     propertyValues: []
 relationships:
   - id: '7dc52192-efc6-4682-b1b0-010dea3a2bcc'

@@ -336,6 +336,45 @@ terms:
     isNullable: true
     dataType:
       platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'ac0fe5a1-241e-41df-8ccc-309eb365c847'
+    name: 'BG_DataQuality_ID'
+    description: 'Default term for the data quality row id'
+    defaultTermId: 'a36a696d-59f5-487e-a955-96c6c2f0bcad'
+    hiddenInSource: true
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: true
+    isNullable: false
+    dataType:
+      platformDataTypeId: '3ea7a252-6878-4db5-9994-72fd3dae2075'
+  - id: '8b364cc6-67d4-41c7-9279-d5609b0034ad'
+    name: 'BG_ErrorCount'
+    description: 'Default term for the data quality error count'
+    defaultTermId: '27b8472b-1aec-4de0-9769-babc4a384c9a'
+    hiddenInSource: true
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: 'c6f208b6-6dc4-4977-bed0-a7775c9ff888'
+  - id: '76073d44-d17a-4c5a-be84-918bbd11434b'
+    name: 'BG_ErrorDescription'
+    description: 'Default term for the data quality error description'
+    defaultTermId: '020b2582-0e66-4db8-9c9e-561fc42a749b'
+    hiddenInSource: true
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
 dataflows:
   - id: '82948b62-cc1f-493a-8f37-0cb5baaeb71a'
     name: 'Dataflow1'
@@ -396,6 +435,9 @@ dataflows:
           - termId: '2441a56e-768a-4b6f-85c6-146397e4d949'
           - termId: 'ced943b3-6352-439d-a19d-9b021ddf496d'
           - termId: 'e2e9a1c9-e037-4fe9-a5f0-bb3c25878b05'
+          - termId: 'ac0fe5a1-241e-41df-8ccc-309eb365c847'
+          - termId: '8b364cc6-67d4-41c7-9279-d5609b0034ad'
+          - termId: '76073d44-d17a-4c5a-be84-918bbd11434b'
 relationships:
   - id: 'e1c574e2-cd3c-47b8-86d4-ef8c33ee3daf'
     referencedModelObjectId: '4e3deda4-da87-44dd-b543-67fa6b9109f7'

@@ -96,6 +96,45 @@ terms:
     isNullable: false
     dataType:
       platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '32e89f5b-e888-4903-a2ae-ef2b79e0f770'
+    name: 'BG_DataQuality_ID'
+    description: 'Default term for the data quality row id'
+    defaultTermId: 'a36a696d-59f5-487e-a955-96c6c2f0bcad'
+    hiddenInSource: true
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: true
+    isNullable: false
+    dataType:
+      platformDataTypeId: '3ea7a252-6878-4db5-9994-72fd3dae2075'
+  - id: 'e8e8aa3f-ae97-48eb-931e-3b9fd0a844a1'
+    name: 'BG_ErrorCount'
+    description: 'Default term for the data quality error count'
+    defaultTermId: '27b8472b-1aec-4de0-9769-babc4a384c9a'
+    hiddenInSource: true
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: 'c6f208b6-6dc4-4977-bed0-a7775c9ff888'
+  - id: '15eb2a19-6ae4-4553-b8d2-6d5a1c35e161'
+    name: 'BG_ErrorDescription'
+    description: 'Default term for the data quality error description'
+    defaultTermId: '020b2582-0e66-4db8-9c9e-561fc42a749b'
+    hiddenInSource: true
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
 dataflows:
   - id: '305285c7-8c62-4fcf-a0da-d33a04001f51'
     name: 'Dataflow1'
@@ -116,6 +155,9 @@ dataflows:
           - expression: 'e497f517-421e-4231-9477-80ef945aec07.9c493aa4-c134-4659-b9b0-f08f6db57c6c'
             termId: 'cc3d60e2-2341-4a3b-91de-5275ae064cf7'
           - termId: 'cf9b716b-fdbc-44c1-8940-45a214b2d4fe'
+          - termId: '32e89f5b-e888-4903-a2ae-ef2b79e0f770'
+          - termId: 'e8e8aa3f-ae97-48eb-931e-3b9fd0a844a1'
+          - termId: '15eb2a19-6ae4-4553-b8d2-6d5a1c35e161'
 relationships:
   - id: '050b358e-c6fd-4534-87b9-33a19d170aec'
     referencedModelObjectId: '284446bb-484f-4a7e-a584-bdea5ac1fea9'
