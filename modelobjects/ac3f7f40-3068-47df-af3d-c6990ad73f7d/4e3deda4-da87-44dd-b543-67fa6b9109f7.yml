@@ -54,6 +54,45 @@ terms:
       platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
       precision: 38
       scale: 0
+  - id: 'd85a0ca1-4212-43a4-9892-305ac9549251'
+    name: 'BG_DataQuality_ID'
+    description: 'Default term for the data quality row id'
+    defaultTermId: 'a36a696d-59f5-487e-a955-96c6c2f0bcad'
+    hiddenInSource: true
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: true
+    isNullable: false
+    dataType:
+      platformDataTypeId: '3ea7a252-6878-4db5-9994-72fd3dae2075'
+  - id: 'a9c5e2b5-98c8-4bbb-8af7-d609a024e01a'
+    name: 'BG_ErrorCount'
+    description: 'Default term for the data quality error count'
+    defaultTermId: '27b8472b-1aec-4de0-9769-babc4a384c9a'
+    hiddenInSource: true
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: 'c6f208b6-6dc4-4977-bed0-a7775c9ff888'
+  - id: '5e30b422-c149-488c-94f3-7280121694e9'
+    name: 'BG_ErrorDescription'
+    description: 'Default term for the data quality error description'
+    defaultTermId: '020b2582-0e66-4db8-9c9e-561fc42a749b'
+    hiddenInSource: true
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
 dataflows:
   - id: '4d8586b1-144c-4f13-ac63-a3b99d4322bd'
     name: 'Dataflow1'
@@ -72,4 +111,7 @@ dataflows:
           - termId: '520e3391-e37b-4bb6-b0bc-53f3f0e48a92'
           - expression: 'a60ee64e-ad30-4787-bddd-8177e4b2704a.a2bfba85-fb20-467b-aacb-fab26e319a17'
             termId: 'b36b15a0-deff-48fe-a91d-0548ffd8ecc1'
+          - termId: 'd85a0ca1-4212-43a4-9892-305ac9549251'
+          - termId: 'a9c5e2b5-98c8-4bbb-8af7-d609a024e01a'
+          - termId: '5e30b422-c149-488c-94f3-7280121694e9'
     propertyValues: []

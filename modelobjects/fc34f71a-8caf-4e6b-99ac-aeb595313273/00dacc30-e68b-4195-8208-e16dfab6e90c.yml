@@ -214,6 +214,45 @@ terms:
     isNullable: false
     dataType:
       platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '3d4d7efd-3217-4229-938c-61c9e15bb7d9'
+    name: 'BG_DataQuality_ID'
+    description: 'Default term for the data quality row id'
+    defaultTermId: 'a36a696d-59f5-487e-a955-96c6c2f0bcad'
+    hiddenInSource: true
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: true
+    isNullable: false
+    dataType:
+      platformDataTypeId: '3ea7a252-6878-4db5-9994-72fd3dae2075'
+  - id: 'c0383310-9d38-4252-be5f-4aa2a60b95c9'
+    name: 'BG_ErrorCount'
+    description: 'Default term for the data quality error count'
+    defaultTermId: '27b8472b-1aec-4de0-9769-babc4a384c9a'
+    hiddenInSource: true
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: 'c6f208b6-6dc4-4977-bed0-a7775c9ff888'
+  - id: '90af5b13-6740-46be-a813-3c218c25f127'
+    name: 'BG_ErrorDescription'
+    description: 'Default term for the data quality error description'
+    defaultTermId: '020b2582-0e66-4db8-9c9e-561fc42a749b'
+    hiddenInSource: true
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
 dataflows:
   - id: '1ab7a942-94d6-414c-9f59-411968798527'
     name: 'Dataflow1'
@@ -251,6 +290,9 @@ dataflows:
           - expression: 'b0b78e57-6888-4145-9205-0515f0a6f96e.1eff5ab7-c6f0-4f8d-acb0-4f6c91d1c777'
             termId: '37e803f3-f92a-4689-a0d9-d025c7fae567'
           - termId: '4273efde-9d6c-493d-9df0-ea6a494bed09'
+          - termId: '3d4d7efd-3217-4229-938c-61c9e15bb7d9'
+          - termId: 'c0383310-9d38-4252-be5f-4aa2a60b95c9'
+          - termId: '90af5b13-6740-46be-a813-3c218c25f127'
     propertyValues: []
 relationships:
   - id: 'aa734c00-a348-496c-bf75-d45822973a34'
@@ -304,3 +346,6 @@ relationships:
       - referenceTermId: 'd68a6315-3ac4-45ca-a2e1-f353c642e78a'
         termId: '37e803f3-f92a-4689-a0d9-d025c7fae567'
     propertyValues: []
+propertyValues:
+  - propertyId: '9f5f2011-43d0-4509-a57c-d33ce191406a'
+    value: 'None'
