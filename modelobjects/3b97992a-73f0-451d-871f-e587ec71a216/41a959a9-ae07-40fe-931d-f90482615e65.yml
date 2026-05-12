@@ -405,3 +405,6 @@ relationships:
       - referenceTermId: 'b36b15a0-deff-48fe-a91d-0548ffd8ecc1'
         termId: '11e42c20-d69d-4aed-b750-551bcdd82511'
     propertyValues: []
+propertyValues:
+  - propertyId: '9f5f2011-43d0-4509-a57c-d33ce191406a'
+    value: 'None'

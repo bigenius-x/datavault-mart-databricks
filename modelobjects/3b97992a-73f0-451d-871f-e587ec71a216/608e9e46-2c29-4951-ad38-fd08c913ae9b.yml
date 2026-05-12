@@ -254,3 +254,5 @@ relationships:
 propertyValues:
   - propertyId: 'b0ee14c8-5179-4123-bed8-c81d60a9a0a2'
     value: '<unselected>'
+  - propertyId: '9f5f2011-43d0-4509-a57c-d33ce191406a'
+    value: 'None'
